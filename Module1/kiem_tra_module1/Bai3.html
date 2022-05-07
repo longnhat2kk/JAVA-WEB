@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="kq"></p>
+    <button onclick="themMoi()">Add</button>
+    <script>
+      let arr = [];
+      function hienthi() {
+        let n =
+          '<table border="1">\n' +
+          "    <tr>\n" +
+          "        <th>ID</th>\n" +
+          "        <th>Name Book</th>\n" +
+          "        <th>Year</th>\n" +
+          "        <th>Quantity</th>\n" +
+          "        <th>Status</th>\n" +
+          "    </tr>";
+        for (i = 0; i < arr.length; i++) {
+          n +=
+            "<tr>\n" +
+            "        <td>" +
+            arr[i].getId() +
+            "</td>\n" +
+            "        <td>" +
+            arr[i].getName() +
+            "</td>\n" +
+            "        <td>" +
+            arr[i].getYaer() +
+            "</td>\n" +
+            "        <td>" +
+            arr[i].getQuantity() +
+            "</td>\n" +
+            "        <td>" +
+            arr[i].getStatus() +
+            "</td>\n" +
+            "    </tr>";
+        }
+        n += "</table>";
+        document.getElementById("kq").innerHTML = n;
+      }
+      hienthi();
+
+      class Book {
+        constructor(id, name, year, quantity, status) {
+          this.id = id;
+          this.name = name;
+          this.year = year;
+          this.quantity = quantity;
+          this.status = status;
+        }
+        getId() {
+          return this.id;
+        }
+        getName() {
+          return this.name;
+        }
+        getYaer() {
+          return this.year;
+        }
+        getQuantity() {
+          return this.quantity;
+        }
+        getStatus() {
+          return this.status;
+        }
+      }
+
+      let regexId = new RegExp("([1-5]{0}[0-9]{3})\\w+");
+      let regexYear = new RegExp("(\\d{4}$)");
+      function themMoi() {
+        let id;
+        do {
+          id = prompt("input id");
+        } while (!id.match(regexId));
+        let name = prompt("input name");
+        let year;
+        do {
+          id = prompt("input year");
+        } while (!id.match(regexYear));
+        let quantity = prompt("input quantity");
+        let status;
+        if (quantity > 0) {
+          status = "true";
+        } else {
+          status = "false";
+        }
+        let book2 = new Book(id, name, year, quantity, status);
+        arr.push(book2);
+        console.log(arr);
+        hienthi(arr);
+      }
+    </script>
+  </body>
+</html>

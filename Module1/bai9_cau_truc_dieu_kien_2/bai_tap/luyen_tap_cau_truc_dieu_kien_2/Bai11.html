@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bài 11: Viết chương trình tính thuế thu nhập cá nhân. -->
+    <!-- thuế có 7 bậc để tính, tùy vào mỗi bậc mà ta có thể tính tiền chi trả thuế
+    bậc 1 : trên 5-10tr thì mất 10%
+    bâc 1 : trên 10-18tr thì mất 15%
+    bâc 2 : trên 18-32tr thì mất 20%
+    bâc 3 : trên 32-52tr thì mất 25%
+    bâc 4 : trên 52-80tr thì mất 30%
+    bâc 5 : trên trên 80tr thì mất 35% -->
+    <script>
+        let luongThang = prompt ("Nhập lương tháng của bạn: ")
+        let tienThue
+        if (luongThang >= 5000000 || luongThang <= 10000000 )  {
+             tienThue = luongThang/10
+        }else if (luongThang >= 10000000 || luongThang <= 18000000 )  {
+             tienThue = luongThang/15  
+        }else  if (luongThang >= 18000000 || luongThang <= 32000000 )  {
+             tienThue = luongThang/20
+        }else if (luongThang >= 32000000 || luongThang <= 32000000 )  {
+             tienThue = luongThang/25
+        } else if (luongThang >= 52000000 || luongThang <= 80000000 )  {
+             tienThue = luongThang/30
+        }else if (luongThang > 80000000 )  {
+             tienThue = luongThang/35
+        }
+       alert ("Tiền thuế bạn cần phải trả là: "+ tienThue) 
+    </script>
+</body>
+</html>

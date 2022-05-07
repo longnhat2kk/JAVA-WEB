@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e4dd13b7-0405-4e7a-899b-394c766ab3d3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_facebook/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/bai_7_thiet_ke_bo_cuc_trang_web/bai_tap/tao_giao_dien_facebook/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled1/untitled1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/build/libs/bai_tap_2-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web_java2/src/main/webapp/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2335LTZooWNYZCDV6K1rkOqDgyt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e4dd13b7-0405-4e7a-899b-394c766ab3d3" name="Changes" comment="" />
+      <created>1640949875290</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640949875290</updated>
+      <workItem from="1640949876851" duration="136000" />
+      <workItem from="1640950084882" duration="142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

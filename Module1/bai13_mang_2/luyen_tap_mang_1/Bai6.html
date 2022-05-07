@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Bài 6- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V. 
+    Chương trình tìm xem V có nằm trong mảng số nguyên không? Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array". -->
+    <script>
+      let array = [];
+      for (let i = 0; i < 10; i++) {
+        array[i] = prompt("Nhập mảng số nguyên");
+      }
+      let v = prompt("Nhập số cần tìm");
+      let flag = false;
+      for (let i = 0; i < array.length; i++) {
+        if (v == array[i]) {
+          flag = true;
+          break;
+        }
+      }
+      if (flag) {
+        document.write("V is in the array <br>");
+      } else {
+        document.write("V is not in the array");
+      }
+    </script>
+  </body>
+</html>

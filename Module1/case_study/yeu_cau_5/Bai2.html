@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 2: Viết hàm liệt kê các số nguyên tố trong mảng 2 chiều, đếm các số nguyên tố có trong mảng đó. -->
+    <script>
+        function isPrime() {
+            let input2d = parseInt(prompt("Input number of array elements: "));
+            let inputCol = parseInt(prompt("Input array of a column: "));
+            let arr2d = new Array(input2d);
+
+            for (let i = 0; i < arr2d.length; i++) {
+                arr2[i] = [];
+                for (let j = 0; j < inputCol; j++) {
+                    let inputRow = parseInt(prompt("The input element of an array: " + j));
+                    arr2d[i].push(inputRow);
+                }
+            }
+
+            let count = 0;
+            for (let i = 0; i < arr2d.length; i++) {
+                for (let j = 0; j < arr2d[i].length; j++) {
+                    let elements = arr2d[i][j];
+                    for (let n = 2; n < elements - 1; n++) {
+                        if (elements % n === 0) {
+                            count++;
+                        }
+                    }
+                }
+            }
+            alert("The number of primes in the array: " + count);
+
+        }
+
+        isPrime();
+    </script>
+</body>
+
+</html>

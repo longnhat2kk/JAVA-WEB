@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 3: Viết hàm tìm giá trị lớn nhất, nhỏ nhất trong mảng 2 chiều -->
+
+    <script>
+        function minMax() {
+            let elements = parseInt(prompt("Input number of array elements"));
+            let column = parseInt(prompt("Input array of a column"));
+            let arr = new Array(elements);
+            let max = 0;
+            let min = 0;
+            for (let i = 0; i < elements; i++) {
+                arr[i] = new Array(column);
+                for (let j = 0; j < column; j++) {
+                    arr[i][j] = parseInt(prompt("Nhập a[" + i + "][" + j + "]"));
+                    max = arr[0][0];
+                    min = arr[0][0];
+                    if (max < arr[i][j]) {
+                        max = arr[i][j];
+                    }
+                    if (min > arr[i][j]) {
+                        min = arr[i][j];
+                    }
+                }
+            }
+            alert("Số lớn nhất: " + max + "và số nhỏ nhất: " + min);
+        }
+        minMax()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+/* sử dụng thuộc tính font-family để thay đổi font chữ */
+
+h1 {
+    color: blue;
+    font-family: Tahoma;
+    font-size: 200%;
+}
+
+p {
+    color: red;
+    font-family: Arial;
+    font-size: 120%;
+}
+
+
+/* Sử dụng thuộc tính border để vẽ viền cho thẻ p */
+
+h1 {
+    color: blue;
+    font-family: Tahoma;
+    font-size: 200%;
+}
+
+p {
+    color: red;
+    font-family: Arial;
+    font-size: 120%;
+    border: 1px solid grey;
+}
+
+
+/* Sử dụng thuộc tính padding để quy định khoảng cách từ đường viền đến các thành phần bên trong: */
+
+h1 {
+    color: blue;
+    font-family: Tahoma;
+    font-size: 200%;
+}
+
+p {
+    color: red;
+    font-family: Arial;
+    font-size: 120%;
+    border: 1px solid grey;
+    padding: 10px;
+}

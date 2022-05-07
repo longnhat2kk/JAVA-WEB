@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let vatLy = prompt("Nhập điểm môn vật lý");
+      let hoaHoc = prompt("Nhập điểm môn hóa học");
+      let sinhHoc = prompt("Nhập điểm môn sinh học");
+
+      let ly = parseInt(vatLy);
+      let hoa = parseInt(hoaHoc);
+      let sinh = parseInt(sinhHoc);
+    
+      let tong = ly + hoa + sinh;
+      let trungbinh = (ly + hoa + sinh) / 3;
+
+      document.write("Tổng điểm ba môn:" + tong);
+      document.write("<br>");
+      document.write(" Điểm trung bình: " + trungbinh);
+    </script>
+  </body>
+</html>

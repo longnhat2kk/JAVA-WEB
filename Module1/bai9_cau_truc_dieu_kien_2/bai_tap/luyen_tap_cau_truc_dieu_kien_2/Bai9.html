@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Bài 9: Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam giác là:
+
+                    a,b,c > 0
+                    a + b > c
+                    b + c > a
+                    a + c > b -->
+    <script>
+      let a = prompt("Nhập cạnh thứ 1 cần kiểm tra");
+      let b = prompt("Nhập cạnh thứ 2 cần kiểm tra");
+      let c = prompt("Nhập cạnh thứ 3 cần kiểm tra");
+      let d = a + b;
+      let e = b + c;    
+      let g = a + c;
+      if (a > 0 && b > 0 && c > 0) {
+        if (d > c && e > a && g > b) {
+          document.write("Ba cạnh a, b, c là ba cạnh của tam giác");
+        } else {
+          document.write("Ba cạnh a, b, c không là ba cạnh của tam giác");
+        }
+      } else {
+        document.write("Ba cạnh a, b, c không là ba cạnh của tam giác");
+      }
+    </script>
+  </body>
+</html>

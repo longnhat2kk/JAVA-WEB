@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- Bài 4: Viết một chương trình để đếm số từ trong một chuỗi -->
+  <script>
+    let str = prompt("Mời nhập chuỗi");
+    let mainStr = str.trim();
+    let moStr = "";
+    for (let i = 0; i < str.length; i++) {
+      if (mainStr[i] === " " && mainStr[i + 1] === " ") {
+        continue;
+      } else {
+        moStr += mainStr[i];
+      }
+    }
+    let count = 1;
+    for (let i of moStr) {
+      if (i === " ") {
+        count++;
+      }
+    }
+    alert("Số từ trong chuỗi là: " + count);
+  </script>
+</body>
+
+</html>

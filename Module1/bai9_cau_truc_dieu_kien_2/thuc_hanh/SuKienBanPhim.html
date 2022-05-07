@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img id="nobita" src="./img/nobita.jpg" style="position:absolute;left:0; top:0;" height="auto" width="300px" />
+    <script>
+        window.addEventListener("keydown", moveNobita)
+
+        function moveNobita(evt) {
+            alert("bay nào")
+            let nobita = document.getElementById("nobita");
+            switch (evt.keyCode) {
+                case 37:
+                    {
+                        nobita.style.left = parseInt(nobita.style.left) - 5 + 'px';
+                        break;
+                    }
+                case 38:
+                    {
+                        nobita.style.top = parseInt(nobita.style.top) - 5 + 'px';
+                        break;
+                    }
+                case 39:
+                    {
+                        nobita.style.left = parseInt(nobita.style.left) + 5 + 'px';
+                        break;
+                    }
+                case 40:
+                    {
+                        nobita.style.top = parseInt(nobita.style.top) + 5 + 'px';
+                        break;
+                    }
+            }
+        }
+    </script>
+</body>
+
+</html>

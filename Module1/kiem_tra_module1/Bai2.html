@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Câu 2: Viết hàm nhập vào hai số nguyên dương, kiểm tra xem 2 số đó có phải là cặp số thân thiết hay không , trả về true nếu 2 số đó là cặp số thân thiết và false nếu không phải là cặp số thân thiết.
+        Hai số tạo thành một cặp số thân thiết khi chúng tuân theo quy luật: Số này bằng tổng tất cả các ước của số kia (trừ chính số đó) và ngược lại ).
+        Ví dụ:  220:  1 + 2 + 4 + 5 +10 +11 +20 + 44 + 55 + 110 = 284
+                284: 1 + 2 + 4 + 71 + 142 = 220 -->
+
+    <script>
+      function kiemTraSo(a, b) {
+        let S1 = 0;
+        let S2 = 0;
+        for (i = 1; i < a; i++) {
+          if (a % i == 0) {
+            S1 = S1 + i;
+          }
+        }
+        for (j = 1; j < b; j++) {
+          if (b % j == 0) {
+            S2 = S2 + j;
+          }
+        }
+        if (S1 == b && S2 == a) {
+          return true;
+        }
+        return false;
+      }
+      let nhapGiaTri = kiemTraSo(220, 284);
+      alert(nhapGiaTri);
+    </script>
+  </body>
+</html>

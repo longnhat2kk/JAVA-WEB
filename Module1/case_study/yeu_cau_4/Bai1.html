@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành xâu sao cho trong xâu không có 2 dấu cách liền nhau và
+    bắt đầu mỗi từ phải in hoa. Ví dụ tRuong TaN HAI => Truong Tan Hai.
+    Và một hàm tìm từ dài nhất trong 1 xâu ký tự. Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím, in ra xâu
+    trước và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó. -->
+    <script>
+        function vietHoa(chuHoa) {
+            let firstChar = chuHoa.charAt(0);
+            let lastChar = chuHoa.slice(1, chuHoa.length).toLowerCase();
+            return firstChar.toUpperCase().concat(lastChar);
+        }
+
+        function run() {
+            let nhapStr = prompt("Input String: ")
+            let arrchuHoa = nhapStr.split(' ');
+            let newArrchuHoa = arrchuHoa.map(vietHoa);
+            let result = newArrchuHoa.join(' ');
+            alert(result);
+
+        }
+
+        run();
+    </script>
+</body>
+
+</html>

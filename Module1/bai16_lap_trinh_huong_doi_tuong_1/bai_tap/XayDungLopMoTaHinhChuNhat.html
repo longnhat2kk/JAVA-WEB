@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="rectangle s"></canvas>
+    <canvas id="hinhchunhat"></canvas>
+    <script>
+        class Rectangle {
+            constructor(length, width,) {
+                this.length = length;
+                this.width = width;
+            }
+            getAcreage() {
+                return length * width;
+            }
+            getPerimeter() {
+                return (length + width) * 2;
+            }
+            drawCanvas(canvas) {
+
+                if (canvas.getContext) {
+                    var ctx = canvas.getContext('2d');
+                    ctx.fillStyle = '#fa4b2a';
+                    ctx.fillRect(10, 40, this.width, this.length); // create rectangle
+
+                }
+
+            }
+        }
+        let length = parseInt(prompt("Nhap chieu dai hinh chu nhat: "));
+        let width = parseInt(prompt("Nhap chieu rong hinh chu nhat: "));
+        let rectangle = new Rectangle(length, width);
+        var canvas1 = document.getElementById("rectangle");
+        var canvas2 = document.getElementById("hinhchunhat");
+        let acreage = rectangle.getAcreage();
+        let perimeter = rectangle.getPerimeter();
+        rectangle.drawCanvas(canvas1);
+        document.write("<br/>" + "Dien tich hinh chu nhat la: " + acreage + "<br/>" + "Chu vi hinh chu nhat la: " + perimeter);
+        let rectangle2 = new Rectangle(100, 160);
+        rectangle2.drawCanvas(canvas2);
+
+
+
+    </script>
+</body>
+
+</html>

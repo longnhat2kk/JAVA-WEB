@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Bài 3: In tam giác vuông. Các góc vuông nằm ở các vị trí khác nhau -->
+
+    <script>
+        // Tam giác có góc vuống bên trái dưới
+      for (let i = 1; i <= 5; i++) {
+        for (let k = 1; k <= i; k++) {
+          document.write("*");
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+
+    //   Tam giác có góc vuông trên trái
+      for (var i = 4; i >= 0; i--) {
+        for (var j = 0; j <= i; j++) {
+          document.write("*");
+        }
+        document.write("<br>");
+      }
+      document.write("<br>");
+    
+      //Tam gác có góc vuông phải dưới
+      var soup = "<p>";
+    document.write("<br>");
+    for (var i=0; i<=4; i++){
+        for (var h=4;h>i;h--){
+            soup = soup + '&nbsp;' + '&nbsp;';
+        }
+        for (var j=0; j<=i; j++){
+            soup = soup + "*";
+        }
+        soup = soup + "<br>";
+    }
+    soup = soup + "</p>";
+    document.write(soup)
+      //Tam gác có góc vuông phải trên
+    var soup1 = "<p>";
+    for (var i=4; i>=0; i--){
+        for (var h=4;h>i;h--){
+            soup1 = soup1 + '&nbsp;' + '&nbsp;';
+        }
+        for (var j=i; j>=0; j--){
+            soup1 = soup1 + "*";
+        }
+        soup1 = soup1 + "<br>";
+    }
+    soup1 = soup1 + "</p>";
+    document.write(soup1)
+
+    </script>
+  </body>
+</html>

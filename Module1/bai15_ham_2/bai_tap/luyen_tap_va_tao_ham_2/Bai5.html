@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 5: Viết hàm nhập vào 3 số nguyên bất kỳ, trả về số nguyên có giá trị nhỏ nhất. -->
+    <script>
+        function min(a, b, c) {
+            let min = a
+            if (min > b) {
+                min = b
+            } else if (min > c) {
+                min = c
+            } return min
+        }
+        document.write("Số nhỏ nhất là: ", min(3, 5, 1))
+    </script>
+</body>
+
+</html>

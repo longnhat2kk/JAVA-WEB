@@ -1,0 +1,56 @@
+body {
+    font-family: Tahoma;
+    font-size: 14px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#header {
+    background: #4168e9;
+    height: 60px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#header #timkiem {
+    border-radius: 15px;
+    padding-right: 50px;
+}
+
+#main #left {
+    float: left;
+    width: 200px;
+    min-height: 400px;
+    text-align: center;
+    border-right: 2px solid black;
+}
+
+#main #right {
+    float: left;
+    width: 800px;
+}
+
+#footer {
+    background: #4168e9;
+    width: 1000px;
+    height: 30px;
+    clear: left;
+    border: 2px solid black;
+}
+
+#main #top {
+    margin: 0px;
+    padding-top: 10px;
+    border-bottom: 2px solid black;
+
+}
+
+#main #maintop {
+    margin: 0px;
+    font-weight: bold;
+    padding-right: 300px;
+    padding-top: 20px;
+    float: right;
+    text-align: center;
+}

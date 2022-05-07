@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cot-trai {
+    width: 80%;
+}
+
+.cot-phai {
+    background-color: tomato;
+    width: 18%;
+    float: right;
+    padding: 10px;
+}
+
+header,
+footer {
+    padding: 10px;
+    background-color: coral;
+    color: white;
+}
+
+section {
+    margin: 5px;
+    padding: 15px;
+    background-color: wheat;
+}
+
+#menu {
+    background-color: violet;
+    height: 50px;
+}
+
+ul.root>li {
+    list-style: none;
+    float: left;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul>a:hover {
+    background-color: steelblue;
+    transition: ease-in 0.30s;
+}
+
+.root li a:hover {
+    background-color: tomato;
+    display: block;
+    line-height: 30px;
+    transition: ease-in 0.30s;
+}
+
+.root ul li {
+    list-style: none;
+}
+
+.menu-backend {
+    width: 100px;
+    background-color: violet;
+    min-height: 50px;
+    padding: 0px;
+    line-height: 30px;
+    display: none;
+    transition: ease-in 0.30s;
+    position: absolute;
+}
+
+.menu-frontend {
+    width: 100px;
+    background-color: violet;
+    min-height: 50px;
+    padding: 0px;
+    line-height: 30px;
+    display: none;
+    transition: ease-in 0.30s;
+    position: absolute;
+}
+
+.root li:hover .menu-backend {
+    display: block;
+}
+
+.root li:hover .menu-frontend {
+    display: block;
+}

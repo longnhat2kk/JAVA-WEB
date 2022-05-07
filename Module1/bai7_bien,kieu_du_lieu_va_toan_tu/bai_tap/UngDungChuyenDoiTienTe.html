@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    p {
+        color: blue;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+<body>
+
+    <label for="">Amount</label>
+    <input type="text" id="nhapsotien">
+    <label for="">From Currency</label>
+    <select id="from">
+        <option>USD</option>
+        <option>VND</option>
+    </select>
+
+    <label for="">To Currency</label>
+    <select id="to">
+        <option>USD</option>
+        <option>VND</option>
+    </select>
+
+    <button onclick="doitien()" style="background-color: rgb(235, 200, 64);">Convert</button>
+
+    <p id="ketqua"></p>
+
+    <script>
+        function doitien() {
+            var nhapsotien = parseInt(document.getElementById("nhapsotien").value);
+            var from = document.getElementById("from").value;
+            var to = document.getElementById("to").value;
+            var result;
+            if (from == "USD" && to == "VND") {
+                result = "Kết quả: " + (nhapsotien * 23000) + " VND";
+            } else if (from == "VND" && to == "USD") {
+                result = "Kết quả: " + (nhapsotien / 23000) + " USD";
+            } else {
+                result = " Bạn chọn sai mệnh giá tiền";
+            }
+            document.getElementById("ketqua").innerHTML = result;
+        }
+    </script>
+</body>
+
+</html>

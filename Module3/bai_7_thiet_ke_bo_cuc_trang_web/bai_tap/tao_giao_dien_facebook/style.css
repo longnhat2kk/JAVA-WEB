@@ -1,0 +1,38 @@
+.menu {
+    width: 1350px;
+    height: 56px;
+    background-color: #1c1e21;
+    color: white;
+}
+
+.logo>img {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-between ul {
+    list-style: none;
+    width: 900px;
+}
+
+.menu ul {
+    margin: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.menu-between ul li {
+    float: left;
+}
+
+.menu,
+.search,
+.logo,
+.menu-between {
+    float: left;
+}
+
+.menu-between ul>li>ul {
+    padding: 12 px, 15px;
+}

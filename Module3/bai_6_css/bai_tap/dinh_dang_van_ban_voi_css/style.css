@@ -1,0 +1,20 @@
+* {
+    font-style: "Times New Roman", Times, serif;
+    background-color: cornsilk;
+}
+
+.tieu-de {
+    text-indent: 50px;
+    font-style: oblique;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+
+/* xoá gạch chân thẻ a */
+
+a {
+    text-decoration: none;
+}

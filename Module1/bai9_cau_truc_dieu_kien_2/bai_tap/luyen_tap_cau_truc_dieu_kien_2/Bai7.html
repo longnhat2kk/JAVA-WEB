@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bài 7: Giải phương trình bậc 2. -->
+    
+    <!-- 'Giải phương trình bậc 2 có dạng: ax^2 + bx +c=0 (a!=0) -->
+    <script>
+        let a =prompt('Nhập giá trị của a');
+        let b =prompt('Nhập giá trị của b');
+        let c= prompt('Nhập giá trị của c');
+        let x =0;
+        let denta = b*b-4*a*c;
+        let canDenta = Math.sqrt(denta);
+        if(a!=0){
+            if(denta>0){
+                
+                let x1 = (-b-canDenta)/2*a;
+                x1= x1.toFixed(2);
+                let x2 = (-b+canDenta)/2*a;
+                x2= x2.toFixed(2);
+                document.write('Phương trình có 2 nghiệm phân biệt x1 = '+x1 +' và x2 = '+x2);
+            }
+            else if(denta==0){
+                x=-b/2*a;
+                x=x.toFixed(2);
+                document.write('Phương trình có nghiệm kép x1=x2='+x);
+            }
+            else{
+                document.write('Phương trình vô nghiệm');
+            }
+        }
+    </script>
+</body>
+</html>

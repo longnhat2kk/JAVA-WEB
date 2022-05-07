@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 8: Game đoán số
+
+    Nâng cấp game "Hãy thử đoán xem!"
+    
+    1. Thiết kế giao diện: Giao diện chỉ gồm 1 Button "Chơi": cho phép người dùng bắt đầu chơi hoặc chơi lại 
+    
+    2. Mô tả ứng dụng: Khi người dùng nhấn vào button “Chơi”:
+    
+    Ứng dụng hiển thị cửa sổ prompt cho phép người dùng nhập vào muốn đoán trong khoảng nào
+    Ứng dụng chọn ra số ngẫu nhiên trong khoảng mà ngườI dùng chọn 
+    Ứng dụng hiển thị cửa số prompt cho người dùng nhập giá trị mà người dùng đoán 
+    Ứng dụng lấy kết quả và so sánh với giá trị ngẫu nhiên.
+             Nếu bằng thì hiển thị thông báo chúc mừng và kết thúc lượt chơi 
+            Nếu lớn hơn hoặc bé thua thì hiển thị thông báo lớn hơn hay bé thua và cho phép người dùng lựa chọn lại. -->
+
+    <h1 style="color: rgb(226, 136, 26)">GAME ĐOÁN SỐ</h1>
+    <body>
+        <button onclick="play()"> Play</button>
+        </body>
+        <script>
+            function play() {
+              let min = parseInt(prompt("nhập vào giá trị nhỏ nhật"));
+              let max = parseInt(prompt("nhập vào giá trị lớn nhất"));
+              let random= min+Math.ceil(Math.random()*(max-min));// tạo số random nằm trong khoảng từ min-max
+                let choose;
+                let count =0;
+                do {
+                    choose = prompt("nhập số bạn đoán");
+                    count++;
+                    if (choose==random){
+                        alert("bạn đã đoán đúng");
+                        break;
+                    }else if(choose<random){
+                        alert("số bạn nhập nhỏ hơn kết quả");
+                    }else {
+                        alert("số bạn nhập lớn hơn kết quả");
+                    }
+                    if (count==3){
+                        alert("bạn đã hết quyền đoán, chời lại");
+                        break;
+                    }
+        
+                }while (true)
+        
+            }
+        </script>
+        </html>

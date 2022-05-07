@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Bài 4: Viết một chương trình nhập một số từ bàn phím và in ra màn hình bằng chữ. Ví dụ 1234, kết quả in ra màn hình là
+    một hai ba bốn. -->
+    <script>
+        let arrNumber = ["0", "1", "2", "3", " 4", " 5", "6,", "7", "8", "9"]
+        let arrStr = ["không", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"]
+        let input = prompt("Nhập số")
+        for (let i of input) {
+            for (let j = 0; j < arrNumber.length; j++) {
+                if (i === arrNumber[j]) {
+                    alert(arrNumber[j] + " là: " + arrStr[i])
+                } else {
+                    continue
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

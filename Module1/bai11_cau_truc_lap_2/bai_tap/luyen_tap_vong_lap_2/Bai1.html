@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- Bài 1: In dãy fibonaci -->
+
+    <script>
+      var n1 = 0;
+      var n2 = 1;
+      var nn = 0;
+      var nhap = prompt("Nhập số fibonaci: ");
+      for (var i = 0; i < nhap; i++) {
+        nn = n1 + n2;
+        n2 = n1;
+        n1 = nn;
+        document.write(nn, "<br>");
+      }
+    </script>
+  </body>
+</html>

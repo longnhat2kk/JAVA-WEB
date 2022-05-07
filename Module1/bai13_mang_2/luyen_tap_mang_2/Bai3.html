@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng. Chương trình này đếm số ký tự số trong mảng.  -->
+    <script>
+      let arr = [];
+      for (let i = 0; i < 5; i++) {
+        arr[i] = prompt("Nhập mảng");
+      }
+      var count = 0;
+      for (let i = 0; i < arr.length - 1; i++) {
+        if (arr[i] >= "A" && arr[i] <= "z") {
+          count++;
+        }
+      }
+      document.write("Số ký tự trong chuổi là " + count);
+    </script>
+  </body>
+</html>
